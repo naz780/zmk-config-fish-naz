@@ -97,7 +97,16 @@
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
 &kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 1 TAB   &mt LCTRL SPACE     &mt RCTRL RET &lt 2 BSPC 
+                                                &lt 2 TAB   &mt LCTRL SPACE     &mt RCTRL RET &lt 3 BSPC 
+            >;
+        };
+
+        layer_qwebase {
+            bindings = <
+                        &kp W       &kp E       &kp R       &kp T               &kp Y       &kp U       &kp I       &kp O       
+&mt LSHFT Q &kp A       &kp S       &kp D       &kp F       &kp G               &kp H       &kp J       &kp K       &kp L       &kp P       &kp BSPC    
+            &kp Z       &kp X       &kp C       &kp V                                       &mt RSHFT M &mt RALT COMMA &mt RGUI DOT &kp RET 
+                                                &lt 2 B     &mt LCTRL TAB       &mt RCTRL SPACE &lt 3 N 
             >;
         };
 
@@ -116,15 +125,6 @@
 &kp AT      &kp HASH    &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp PIPE     &kp CAPS    &kp LEFT    &kp DOWN    &kp RIGHT   &kp LG(LS(S)) &kp PSCRN 
             &kp BSLH    &kp LBRC    &kp GRAVE   &kp RBRC                                    &kp C_VOL_UP &kp C_VOL_DN &kp C_MUTE &trans     
                                                 &lt 4 TAB   &none               &trans      &none       
-            >;
-        };
-
-        layer_qwe_base {
-            bindings = <
-                        &kp W       &kp E       &kp R       &kp T               &kp Y       &kp U       &kp I       &kp O       
-&mt LSHFT Q &kp A       &kp S       &kp D       &kp F       &kp G               &kp G       &kp J       &kp K       &kp L       &kp P       &kp BSPC    
-            &kp Z       &kp X       &kp C       &kp V                                       &mt RSHFT M &mt RALT COMMA &mt RGUI DOT &kp RET 
-                                                &lt 1 B     &mt LCTRL TAB       &mt RCTRL SPACE &lt 2 N 
             >;
         };
 
