@@ -97,7 +97,7 @@
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
 &kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 2 TAB   &mt LCTRL SPACE     &mt RCTRL RET &lt 3 BSPC 
+                                                &lt 2 SPACE &mt LCTRL TAB       &mt RCTRL RET &lt 3 BSPC 
             >;
         };
 
@@ -124,7 +124,7 @@
                         &kp LBKT    &kp DQT     &kp RBKT    &kp AMPS            &kp ESC     &trans      &kp UP      &trans      
 &kp AT      &kp HASH    &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp PIPE     &kp CAPS    &kp LEFT    &kp DOWN    &kp RIGHT   &kp LG(LS(S)) &kp PSCRN 
             &kp BSLH    &kp LBRC    &kp GRAVE   &kp RBRC                                    &kp C_VOL_UP &kp C_VOL_DN &kp C_MUTE &trans     
-                                                &lt 4 TAB   &none               &trans      &none       
+                                                &lt 4 SPACE &none               &trans      &none       
             >;
         };
 
