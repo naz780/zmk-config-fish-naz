@@ -72,6 +72,11 @@
             bindings = <&kp LG(SPACE)>;
         };
 
+        combo_caps {
+            key-positions = <12 15>;
+            bindings = <&kp CAPS>;
+        };
+
         combo_reset_L {
             key-positions = <3 8 13>;
             bindings = <&bootloader>;
