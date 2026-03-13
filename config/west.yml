@@ -9,9 +9,10 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+      
     - name: prospector-zmk-module
       remote: prospector
-      revision: v2.0.0  # Use specific version tag
+      revision: v2.1.0  # Use specific version tag
       path: modules/prospector-zmk-module
   self:
     path: config
